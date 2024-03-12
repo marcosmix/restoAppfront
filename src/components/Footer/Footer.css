@@ -1,0 +1,38 @@
+.footer__container {
+	height: 90px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.footer__media {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+.footer__mediaIcon {
+	width: 45px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid var(--soft-pink);
+	border-radius: 50%;
+	transition: 0.4s;
+}
+
+.footer__mediaIcon:hover {
+	background: var(--soft-pink);
+	color: var(--black);
+}
+
+.footer__copy {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.footer__copy img {
+	width: 70px;
+}

@@ -1,0 +1,74 @@
+@import url(css/buttons.css);
+@import url(css/inputs.css);
+
+:root {
+	--red: #e5083b;
+	--orange: #FF5B00;
+	--yellow: #ffb000;
+	--pink: #eb7e8a;
+	--black: #1d1c22;
+	--green: #82c285;
+
+	/* Soft Colors */
+	--soft-pink: #f2e0e0;
+	--soft-green: #b0ffad;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+
+body {
+	color: white;
+	background: var(--black);
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 80vh;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+	width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: var(--black);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--soft-pink);
+	margin-left: 5px;
+}
+
+.good {
+	color: var(--green);
+}
+
+.regular {
+	color: var(--yellow);
+}
+
+.bad {
+	color: var(--red);
+}

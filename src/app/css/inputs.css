@@ -1,0 +1,49 @@
+.input,
+.textarea,
+.select,
+.inputFile__label {
+	display: block;
+	background: var(--black);
+	color: var(--soft-pink);
+	width: 100%;
+	max-width: 400px;
+	padding: 13px 20px;
+	border: 1px solid var(--soft-pink);
+	border-radius: 15px;
+	font-size: 16px;
+	transition: 0.4s;
+}
+
+.select {
+	-moz-appearance: none;
+	/* Firefox */
+	-webkit-appearance: none;
+	/* Safari and Chrome */
+	appearance: none;
+	background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+	background-repeat: no-repeat;
+	background-position-x: 97%;
+	background-position-y: 9px;
+}
+
+.input::placeholder,
+.textarea::placeholder,
+.select option,
+.inputFile__label::placeholder {
+	color: var(--soft-pink);
+	font-family: '__Montserrat_8cc72f', '__Montserrat_Fallback_8cc72f' !important;
+}
+
+/* En tu archivo de estilos CSS */
+.inputFile {
+	display: none;
+	/* Oculta el input de tipo file real */
+}
+
+/* @media screen and (min-width: 800px) {
+	.input,
+	.textarea,
+	.inputFile__label {
+		max-width: 400px;
+	}
+} */

@@ -1,0 +1,42 @@
+.navBar__container {
+	width: 100%;
+	height: 70px;
+	background: var(--black);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 30px;
+	position: fixed;
+	z-index: 999;
+	border-bottom: 1px solid var(--soft-pink);
+	border-radius: 15px;
+}
+
+.navBar__icon {
+	width: 45px;
+	height: 45px;
+	padding: 2px;
+	border: 1px solid var(--soft-pink);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.navBar__icon img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+
+.fake {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	position: fixed;
+	z-index: 999;
+}
+
+.fake a {
+	width: auto !important;
+}
